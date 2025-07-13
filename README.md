@@ -51,5 +51,10 @@ Output:
 This tool is intended for educational and security analysis purposes only.
 Improper use may violate Microsoft's license agreements. Use responsibly and only on systems you own or are authorized to analyze.
 
+# Author
+Project: Andrea Cristaldi <a href="https://www.linkedin.com/in/andreacristaldi/" target="blank_">Linkedin</a>, <a href="https://www.cybersec4.com" target="blank_">Cybersec4</a>
+
 # License
 This project is licensed under the MIT License.
+
+
