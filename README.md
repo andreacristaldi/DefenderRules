@@ -1,5 +1,5 @@
 # DefenderDecompress
-Tool to esigned to parse and analyze Microsoft Defender AV signature definition files 
+Tool designed to parse and analyze Microsoft Defender AV signature definition files 
 
 # Description
 DefenderRules is a tool designed to parse and analyze Microsoft Defender signature definition files (extracted from .vdm using tools like DefenderDecompress). It extracts metadata about threats, parses rule types, and generates:
