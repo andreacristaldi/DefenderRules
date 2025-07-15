@@ -22,7 +22,7 @@ PowerShell access (for retrieving threat catalog via Get-MpThreatCatalog)
 DefenderRules.exe <ExtractedFilePath> <OutputDirectory>
 
 # Example
-DefenderRules.exe mpasbase.vdm.extracted ./output
+DefenderRules.exe mpasbase.vdm.decompressed ./output
 
 This will:
 
