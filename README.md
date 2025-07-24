@@ -21,6 +21,8 @@ PowerShell access (for retrieving threat catalog via Get-MpThreatCatalog)
 # Usage
 DefenderRules.exe <ExtractedFilePath> <OutputDirectory>
 
+you can use RunMe2.bat (please config path and referement)
+
 # Example
 DefenderRules.exe mpasbase.vdm.decompressed ./output
 
