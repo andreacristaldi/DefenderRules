@@ -1,6 +1,8 @@
 @echo off
 setlocal
 
+set "folder_path1=output_mpasbase"
+
 REM Check if the folder exists
 if not exist "%folder_path%1" (
     echo The folder does not exist. Creating...
@@ -35,7 +37,7 @@ set "folder_path3=output_mpavbase"
 
 REM Check if the folder exists
 if not exist "%folder_path%3" (
-    echo La cartella non esiste. Creazione in corso...
+    echo The folder does not exist. Creating...
     mkdir "%folder_path3%"
     echo Check if the folder exists
 ) else (
@@ -52,7 +54,7 @@ set "folder_path4=output_mpavdlta"
 REM Check if the folder exists
 
 if not exist "%folder_path%4" (
-    echo The folder does not exist. Creation in progress...
+    echo The folder does not exist. Creating...
     mkdir "%folder_path4%"
     echo Folder successfully created.
 ) else (
