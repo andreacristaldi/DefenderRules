@@ -1,6 +1,6 @@
 ﻿// DefenderRules
 // Author: Andrea Cristaldi 2025 - https://github.com/andreacristaldi/DefenderRules
-// This project is licensed under the MIT License.
+// This project is licensed under the MIT License. The licence does not extend to data generated/derived from Defender definitions.
 
 using System;
 using System.Collections;
@@ -83,6 +83,8 @@ public class DefenderRules
 
     public static void ExtractThreatSignatures(string filePath, string outputDirectory)
     {
+        Console.WriteLine("You are exporting raw signature chunks(.bin). These are derived from Microsoft’s proprietary definitions and are for local use only.Do not publish or share these files.");
+
         Console.WriteLine("Searching...");
         uint ui32SignatureId = 0;
 
@@ -241,7 +243,6 @@ public class DefenderRules
 
         Console.WriteLine("\n\nSaving stats...");
         SaveStats(outputDirectory);
-
         Console.WriteLine("\n\nSaving signatures to output path...");
         foreach (var threatEntry in Threats)
         {
